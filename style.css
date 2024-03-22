@@ -1,62 +1,72 @@
 :root {
   /* CSS HEX */
-  --cadet-gray: #8498a4ff;
-  --gunmetal: #292e34ff;
-  --charcoal: #32434dff;
-  --french-gray: #d2cdd1ff;
-  --outer-space: #4d5860ff;
-
-  font-family: Arial, Helvetica, sans-serif;
+--eerie-black: #202020ff;
+--black: #010101ff;
+--pumpkin: #FF731Dff;
+--gray: #7F7F7Fff;
+--seasalt: #F6F6F6ff;
+--night: #111111ff;
+/* font-family */
+font-family: Arial, Helvetica, sans-serif;
 }
 * {
-  margin: 0;
-  padding: 0;
-  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
-    height: 100vh;
-    width: 100%;
-    background: url(/docs/pexels-daniel-absi-952670.jpg);
-    background-size: 100%;
-  }
-header {
-    height: 10dvh;
-    width: 100dvw;
-    display: flex;
-    flex-direction: row;
+    background-color:var(--night);
     
 }
-header > nav {
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px;
     display: flex;
-    justify-content: space-between;
-    /* text-align: end; */
-}
-main{
-    min-height: 85dvh;
-    width: 100dvw;
+    justify-content:space-between;
     align-items: center;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
+    z-index: 100;
+    height: 5dvh;
+    background-color: var(--eerie-black);
+    
 }
-main > * {
-    margin: 1em;
+header > a {
+    font-weight: 900;
+    font-size: 32px;
+    color: var(--seasalt);
+    text-decoration: none;
+}
+nav > a {
+    color:#FF731Dff;
+    font-weight: 700;
+    text-decoration: none;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 90dvh;
+    color: #F6F6F6ff;
+}
+main > div {
+    padding-left: 10dvw;
 }
 main > img {
-    background-color: var(--gunmetal);
-    border-radius: 100rem;
-    width: auto;
+    height: 50dvh;
+    width: 50dvw;
     margin: 2em;
-    padding: 10px;
+    border-radius:100%;
+
 }
-
-
-
 footer {
-    text-align: center;
-    height: 5dvh;
-    width: 100dvw;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height:5dvh;
+}
+@media screen  (min) {
     
 }
