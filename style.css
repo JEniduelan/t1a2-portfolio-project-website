@@ -16,7 +16,7 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    min-height: 100vh;
+    min-height: 100dvh;
     background-image: url(/docs/pexels-daniel-absi-952670.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,6 +48,9 @@ body {
     font-weight: 600;
     margin-left: 2.5rem;
 }
+.navbar a:hover {
+    color: var(--pumpkin);
+}
 #check {
     display:none;
 }
@@ -64,6 +67,8 @@ body {
         padding: 1.3rem 5%;
     }
     
+
+    
 } 
 @media (max-width: 768px) {
     .icons {
@@ -78,6 +83,7 @@ body {
     #check:checked~.icons #close-icon {
         display: block;
     }
+    
 
 .navbar {
     position: absolute;
@@ -106,4 +112,51 @@ body {
 #check:checked~.navbar a {
     transform: translateY(0);
 }
+main img {
+    border-radius: 100%;
+    height: 40dvh;
+    width: 80%;}
 } 
+main {
+    color: var(--seasalt);
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+main img {
+    height: 50dvh;
+    background-color: var(--pumpkin);
+    border-radius: 100%;
+    border-style: solid;
+    border-color: var(--black);
+    border-width: 8px;
+    
+    
+}
+.content h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-bottom: 2rem;
+}
+.content h2 {
+    color: var(--pumpkin);
+    font-weight: 900;
+}
+.content p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    padding-top: 2rem;
+}
+footer {
+    max-height: 100%;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--seasalt);
+}
