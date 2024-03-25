@@ -12,7 +12,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     display: flex;
@@ -50,42 +49,29 @@ main {
     flex-direction: column;
     align-items: center;
     min-height: 90dvh;
-    width: 100%;
+    width: 100dvw;
 }
-main .one,.two,.three,.four,.five {
+main div {
     background-color:var(--pumpkin);
     border-radius: 2em;
-    width: 80dvw;
-    min-height: 100%;
-    margin: 1rem;
-    padding: 1.5rem;
-    border: solid;
-    border-color: black;
-    border-width: 5%;
+    padding: 5%;
 }
-.container img {
+.img img {
     width: 80dvw;
     height: 30dvh;
     border-radius: 20%;
-    border-width: 20px;
-    margin: 2rem; 
-    border: solid;
-    color: black;
-    background-color: var(--night);
-} 
-
-.container a {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} 
+
 main h1 {
     text-decoration: underline;
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--pumpkin);
-    
 }
 main h2 {
     display: flex;
@@ -102,17 +88,11 @@ main h3 {
     color:var(--seasalt);
 }
 main .container p {
-    color: var(--seasalt);
+    color: var(--night);
     align-items: center;
     display: flex;
-    margin: .5rem;
-    padding: 1.5rem;
     justify-content: center;
     text-align: center;
-    border: solid;
-    border-color: black;
-    border-radius: 2.5rem;
-    background-color: var(--eerie-black);
 }
 
 footer {
@@ -124,40 +104,5 @@ footer {
     justify-content: center;
     align-items: center;
     color: var(--seasalt);
-
-}
-/* Desktop styling */
-@media screen and (min-width:800px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    main .one,.two,.three,.four,.five {
-        display: flex;
-        flex-direction: column;
-        background-color:var(--pumpkin);
-        height: 100%;
-        width: 35dvw;
-        margin: 1rem;
-        padding: 1.5rem;
-        border: solid;
-        border-color: black;
-        border-width: 0.5em;   
-    }
-    .container img {
-        width: 20dvw;
-        height: 30dvh;
-        border-radius: 20%;
-        border-width: 20px;
-        margin: 2rem; 
-        border: solid;
-        color: black;
-        background-color: var(--night);
-}
-main h2 {
-    font-size: 3vh;
-}
 
 }
