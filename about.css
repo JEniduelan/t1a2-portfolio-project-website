@@ -143,9 +143,16 @@ footer {
     align-items: center;
     color: var(--seasalt);
 }
+/* Tablet view */
+@media screen and (min-width:768px)  {
+    .navigation-menu a {
+        padding: 2rem;
+    }
 
+    
+}
 /* Desktop view */
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
     body {
         width: 100dvw;
     }

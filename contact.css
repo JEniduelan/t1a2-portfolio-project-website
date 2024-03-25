@@ -36,7 +36,7 @@ header .logo {
 .navigation-menu a {
   text-decoration: none;
   color: var(--seasalt);
-  margin: 10px;
+  margin: 1rem;
 }
 .navigation-menu a:hover {
   color: var(--pumpkin);
@@ -93,14 +93,37 @@ footer {
   align-items: center;
   color: var(--seasalt);
 }
+/* Tablet styling */
+@media screen and (min-width:800px){
+  .navigation-menu a {
+      padding: 1rem;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  main h1 {
+    display: flex;
+    justify-content:center;
+  }
+}
 /* Desktop styling */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .navigation-menu a {
     text-decoration: none;
     color: var(--seasalt);
-    margin: 5em;}
+    margin: 3em;}
     main {
         display:flex;
         flex-direction: row;
+        justify-content: space-between;
+        max-height: 90dvh;
     }
+    section {
+      display: flex;
+      justify-content: center;
+      height: 40dvh;
+    }
+
 }

@@ -37,6 +37,7 @@ header .logo  {
     text-decoration: none;
     color: var(--seasalt);
     margin: 10px;
+    font-size: 900;
 }
 .navigation-menu a:hover{
     color: var(--pumpkin);
@@ -112,12 +113,20 @@ footer {
     color: var(--seasalt);
 
 }
+/* Tablet styling */
+@media screen and (min-width:768px) {
+    .navigation-menu a {
+        padding: 2em;
+        font-weight: 900;
+    }
+    
+}
 /* Desktop styling */
-@media (min-width:800px){
+@media (min-width:1000px){
     .navigation-menu a {
         text-decoration: none;
         color: var(--seasalt);
-        margin: 5em;}
+        padding:2em ;}
     main h1 {
         padding-bottom: 3em;
     }
