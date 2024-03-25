@@ -118,9 +118,11 @@ main .container {
 }
 .resume h1{
     color: var(--pumpkin);
+    font-size: 3vw;
     display: flex;
     justify-content: center;
     padding-bottom: 1dvh;
+    font-weight: 900;
 } 
 .resume a {
     display: flex;
@@ -141,8 +143,17 @@ footer {
     align-items: center;
     color: var(--seasalt);
 }
+
 /* Desktop view */
 @media screen and (min-width:800px) {
+    body {
+        width: 100dvw;
+    }
+    .navigation-menu a {
+        text-decoration: none;
+        color: var(--seasalt);
+        margin: 5em;
+    }
         main {
             display: flex;
             flex-direction: row;
