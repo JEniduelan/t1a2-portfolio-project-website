@@ -60,10 +60,11 @@ main .container {
 }
 .content {
     display: flex;
+    flex-direction:column;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1em;
     padding: 5%;
     color: var(--seasalt);
 }
@@ -157,7 +158,6 @@ footer {
     body {
         width: 100dvw;
     }
-    }
         main {
             display: flex;
             flex-direction: row;
@@ -176,5 +176,5 @@ footer {
             margin: 5%;
             width: 30dvw;
         }
-    }
 
+    }
