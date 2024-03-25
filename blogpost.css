@@ -54,16 +54,18 @@ main {
 main div {
     background-color:var(--pumpkin);
     border-radius: 2em;
-    padding: 5%;
+    padding: 2%;
+    margin: 3%;
 }
 .img img {
-    width: 80dvw;
+    width: 75dvw;
     height: 30dvh;
-    border-radius: 20%;
+    border-radius: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: solid;
 } 
 
 main h1 {
@@ -88,11 +90,17 @@ main h3 {
     color:var(--seasalt);
 }
 main .container p {
-    color: var(--night);
+    margin: 1.5rem;
+    color: var(--seasalt);
     align-items: center;
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: var(--eerie-black);
+    padding: 1%;
+    border: solid;
+    border-color: black;
+    border-radius: 2em;
 }
 
 footer {
@@ -105,4 +113,17 @@ footer {
     align-items: center;
     color: var(--seasalt);
 
+}
+/* Desktop styling */
+@media screen and (min-width:800px) {
+    
+main div {
+    margin: 10%;
+    padding:2%;
+}
+.img img {
+    width: 100%;
+    height: 60dvh;
+    border-radius: 20%;
+}
 }

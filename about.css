@@ -50,6 +50,7 @@ main {
     width: 100%;
 }
 main #about {
+    text-decoration: underline;
     display: flex;
     justify-content: center;
     color: var(--pumpkin);
@@ -146,14 +147,19 @@ footer {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+            
         }
-        .hobbies, .skills {
+        .hobbies, .skills,.resume {
             display: flex;
-            flex-direction: row;
-            justify-content: right;
-            width: 50dvw;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+            margin: 5%;
+            width: 30dvw;
         }
-
-
     }
 
