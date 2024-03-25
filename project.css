@@ -123,10 +123,6 @@ footer {
 }
 /* Desktop styling */
 @media (min-width:1000px){
-    .navigation-menu a {
-        text-decoration: none;
-        color: var(--seasalt);
-        padding:2em ;}
     main h1 {
         padding-bottom: 3em;
     }

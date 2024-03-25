@@ -117,15 +117,13 @@ footer {
 /* Tablet styling */
 @media screen and (min-width:768px){
     .navigation-menu a {
-        padding: 2rem;}
+        padding: 2em;
+        font-weight: 900;
+    }
     }
     
 /* Desktop styling */
 @media screen and (min-width:800px) {
-    .navigation-menu a {
-        text-decoration: none;
-        color: var(--seasalt);
-        margin: 5em;}
     
 main div {
     margin: 10%;

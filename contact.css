@@ -52,7 +52,6 @@ main {
   width: 100%;
 }
 main h1 {
-    text-decoration: underline;
   background-color: var(--pumpkin);
   border-radius: 2em;
   padding: 5%;
@@ -94,26 +93,25 @@ footer {
   color: var(--seasalt);
 }
 /* Tablet styling */
-@media screen and (min-width:800px){
+@media screen and (min-width:768px){
   .navigation-menu a {
-      padding: 1rem;
-  }
+    padding: 2em;
+    font-weight: 900;
+}
   main {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
+    max-height: 90dvh;
   }
   main h1 {
     display: flex;
     justify-content:center;
+    text-align: center;
   }
 }
 /* Desktop styling */
 @media screen and (min-width: 1000px) {
-  .navigation-menu a {
-    text-decoration: none;
-    color: var(--seasalt);
-    margin: 3em;}
     main {
         display:flex;
         flex-direction: row;

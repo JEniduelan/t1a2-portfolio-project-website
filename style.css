@@ -94,7 +94,8 @@ footer {
 /* Tablet view */
 @media screen and (min-width:768px){
     .navigation-menu a {
-        padding: 2rem;
+        padding: 2em;
+        font-weight: 900;
     }
     header {
         height: 5dvh;
