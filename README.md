@@ -3,10 +3,10 @@
 ## Overview
 
 Portfolio Website :
-https://johnniduelan.netlify.app/
+[https://johnniduelan.netlify.app/](https://johnniduelan.netlify.app/)
 
 GitHub Repository : 
-https://github.com/JEniduelan/T1A2_Portfolio_website
+[https://github.com/JEniduelan/T1A2_Portfolio_website](https://github.com/JEniduelan/t1a2-portfolio-project-website)
 
 Video Presentation :
 
