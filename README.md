@@ -28,26 +28,22 @@ The primary objective of this portfolio is to attract IT professionals, IT compa
     - Css3
     - Github
     - Netlify
-    - Elcalidraw for wireframes
+    - Elcalidraw
 
 ---
 ## Functionality & Features
 
 
-
-
-
+---
+## Sitemap
+![Sitemap](https://github.com/jordansbenjamin/Portfolio_T1A2/assets/161182890/de25d750-ebc8-4412-8019-3dc22d812736)
 
 ---
 ## Wireframes
 
 
-
-
-
 ---
 ## Screenshots
-
 
 
 
