@@ -32,8 +32,20 @@ The primary objective of this portfolio is to attract IT professionals, IT compa
 
 ---
 ## Functionality & Features
+ - main navigation bar
+The main navigation bar positioned in the top right corner of the page facilitates user navigation across the website, enabling access to various sections such as the About Me Page, Projects, Blog Page, and Contact Page. Additionally, a logo has been incorporated at the top right of the screen, serving as a link to the homepage.
 
+ - dark theme
+  
+Utilize a dark theme to reduce eye strain for individuals viewing the portfolio.
+   
 
+ - minimalist
+
+Incorporate a minimalist design to captivate viewers and enhance accessibility on the portfolio website. This approach not only fosters a clean and modern aesthetic but also prioritizes ease of navigation and user interaction.
+
+ - link images
+Include images that are linked to specific functions or purposes on your portfolio website. This not only adds visual appeal but also enhances the navigation experience for visitors, allowing them to easily explore different sections or features of the site.
 ---
 ## Sitemap
 ![Sitemap](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/f11184cb-0fab-409d-b139-1c9e42412784)
