@@ -41,15 +41,17 @@ The primary objective of this portfolio is to attract IT professionals, IT compa
 ---
 ## Wireframes
 ### Homepage
-![home_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/b23204a2-de7d-4899-afe7-0cb2f570280e)
+![home_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/94a277f4-595a-4e8a-bddd-766d52618696)
 ### About
-
+![about_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/7e6d28d6-24e4-4a53-8cc0-73248eb1eb7c)
 ### Projects
-
+![project_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/4fe1f11f-40a3-4850-ba68-4882ff6611af)
 ### Blogs
-
+![blog_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/96e66314-cc2b-4725-ac6d-7cbcfbec26db)
+### Individual Blogs
+![individualblog_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/8fe573e3-e32b-499b-807c-3a0e17a07e63)
 ### Contact
-
+![contact_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/b7bb1878-ef44-4168-a5a3-75d109913336)
 
 ---
 ## Screenshots
