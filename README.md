@@ -40,6 +40,15 @@ The primary objective of this portfolio is to attract IT professionals, IT compa
 
 ---
 ## Wireframes
+### Homepage
+![home_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/b23204a2-de7d-4899-afe7-0cb2f570280e)
+### About
+
+### Projects
+
+### Blogs
+
+### Contact
 
 
 ---
