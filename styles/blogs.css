@@ -12,14 +12,16 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     display: flex;
     flex-direction: column;
-    height: max-content;
+    min-height:100dvh ;
     width: 100%;
     background:var(--eerie-black);
 }
+/* Header Component */
 header {
     height: 5dvh;
     background:var(--black);
@@ -37,7 +39,6 @@ header .logo  {
     text-decoration: none;
     color: var(--seasalt);
     margin: 10px;
-    font-size: 900;
 }
 .navigation-menu a:hover{
     color: var(--pumpkin);
@@ -45,20 +46,36 @@ header .logo  {
 main > * {
     margin: 0.5rem;
 }
+/* Main Component */
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 90dvh;
-    width: 100dvw;
+    width: 100%;
+}
+main .one,.two,.three,.four,.five {
+    background-color:var(--pumpkin);
+    border-radius: 2em;
+    width: 80dvw;
+    min-height: 100%;
+    margin: 1rem;
+    padding: 1.5rem;
+    border: solid;
+    border-color: black;
+    border-width: 5%;
 }
 .container img {
     width: 80dvw;
     height: 30dvh;
-    border-radius: 2em;
+    border-radius: 20%;
     border-width: 20px;
-    border: solid black;
+    margin: 2rem; 
+    border: solid;
+    color: black;
+    background-color: var(--night);
 } 
+
 .container a {
     display: flex;
     justify-content: center;
@@ -70,38 +87,36 @@ main h1 {
     justify-content: center;
     align-items: center;
     color: var(--pumpkin);
+    
 }
 main h2 {
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
-    color: var(--pumpkin);
+    color: var(--night);
     margin: 1em;
 }
-.container {
+main h3 {
     display: flex;
-    flex-direction:column; 
     justify-content: center;
-    border: solid;
-    border-radius: 2em;
-    background-color: var(--pumpkin);}
-    
-
+    align-items: center;
+    color:var(--seasalt);
+}
 main .container p {
     color: var(--seasalt);
     align-items: center;
     display: flex;
+    margin: .5rem;
+    padding: 1.5rem;
     justify-content: center;
     text-align: center;
-}
-.one, .two, .three {
     border: solid;
+    border-color: black;
     border-radius: 2.5rem;
-    background-color: var(--night);
-    margin: 1em;
-    padding: 1em;
+    background-color: var(--eerie-black);
 }
-
+/* Footer */
 footer {
     height: 5dvh;
     width: 100dvw;
@@ -114,7 +129,7 @@ footer {
 
 }
 /* Tablet styling */
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px){
     .navigation-menu a {
         padding: 2em;
         font-weight: 900;
@@ -122,33 +137,40 @@ footer {
     
 }
 /* Desktop styling */
-@media (min-width:1000px){
-    main h1 {
-        padding-bottom: 3em;
-    }
-    .container img {
-        height: 100%;
-        width: 20dvw;
+@media screen and (min-width:1000px) {
+    body {
+        width: 100dvw;
     }
     .container {
         display: flex;
-        flex-direction: row; 
-        justify-content: center;
-        border: solid;
-        background-color: var(--pumpkin);
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
-    .one, .two, .three {
-        border: solid;
-        border-radius: 2.5rem;
-        background-color: var(--night);
-        margin: 2rem;
-        padding: 1.5em;
+    main .one,.two,.three,.four,.five {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        background-color:var(--pumpkin);
+        height: 100%;
+        width: 35dvw;
+        margin: 1rem;
+        padding: 1.5rem;
+        border: solid;
+        border-color: black;
+        border-width: 0.5em;   
     }
-  
-        }
-    
+    .container img {
+        width: 20dvw;
+        height: 30dvh;
+        border-radius: 20%;
+        border-width: 20px;
+        margin: 2rem; 
+        border: solid;
+        color: black;
+        background-color: var(--night);
+}
+main h2 {
+    font-size: 3vh;
+}
+
+}

@@ -19,6 +19,7 @@ body {
     width: 100%;
     background:var(--eerie-black);
 }
+/* Header Component */
 header {
     height: 5dvh;
     background:var(--black);
@@ -40,6 +41,7 @@ header .logo  {
 .navigation-menu a:hover{
     color: var(--pumpkin);
 }
+/* Main Component */
 main > * {
     margin: 0.5rem;
 }
@@ -134,6 +136,7 @@ main .container {
     height: 10dvh;
     border-radius: 1.5rem;
 }
+/* Footer Component */
 footer {
     height: 5dvh;
     width: 100dvw;

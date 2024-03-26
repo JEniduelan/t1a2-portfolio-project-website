@@ -20,6 +20,7 @@ body {
   width: 100%;
   background: var(--eerie-black);
 }
+/* Header */
 header {
   height: 5dvh;
   background: var(--black);
@@ -41,6 +42,7 @@ header .logo {
 .navigation-menu a:hover {
   color: var(--pumpkin);
 }
+/* Main */
 main > * {
   margin: 0.5rem;
 }
@@ -81,7 +83,7 @@ section h2 {
 section h2 img {
   height: 10dvh;
 }
-
+/* footer*/
 footer {
   height: 5dvh;
   width: 100dvw;

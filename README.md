@@ -36,7 +36,7 @@ The primary objective of this portfolio is to attract IT professionals, IT compa
 
 ---
 ## Sitemap
-![Sitemap](https://github.com/jordansbenjamin/Portfolio_T1A2/assets/161182890/de25d750-ebc8-4412-8019-3dc22d812736)
+![Sitemap](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/f11184cb-0fab-409d-b139-1c9e42412784)
 
 ---
 ## Wireframes
@@ -52,6 +52,7 @@ The primary objective of this portfolio is to attract IT professionals, IT compa
 ![individualblog_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/8fe573e3-e32b-499b-807c-3a0e17a07e63)
 ### Contact
 ![contact_wireframe](https://github.com/JEniduelan/T1A2_Portfolio_website/assets/161182890/b7bb1878-ef44-4168-a5a3-75d109913336)
+
 
 ---
 ## Screenshots of Deployed Website
